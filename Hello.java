@@ -1,4 +1,4 @@
-public class Hello extends Thread {
+public class Hello implements Runnable {
     @Override
     public void run() {
         for( ; ; ) {
